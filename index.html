@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Number_slide</title>
+<script src="js/number_slide.js"></script>
+<style>
+ul.number_slide{height: 24px;overflow:hidden;}
+li.number_slide{ display:inline-block; float:left; width:18px;background:url(num_65b7dd8.png) 0 0 no-repeat;height: 240px;-webkit-transform:translate(0,0);position: relative;top:0;}
+</style>
+</head>
+<body>
+<div id="number_slide_box"></div>
+<div id="number_slide_box1"></div>
+<div id="number_slide_box2"></div>
+<div id="number_slide_box3"></div>
+<script>
+    var number_slide_box=new number_slide('number_slide_box','987654321',24,'ease',1.5,0.1);
+    var number_slide_box1=new number_slide('number_slide_box1','123456789',24,'ease-in',3,0.2);
+    var number_slide_box2=new number_slide('number_slide_box2','65406554',24,'ease-out',2,0.3);
+    var number_slide_box3=new number_slide('number_slide_box3','65046504',24,'linear',1,0.4);
+</script>
+</body>
+</html>
